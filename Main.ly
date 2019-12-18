@@ -32,7 +32,7 @@
  r1.  \IntroGuitar
   }
   \new TabStaff {
-%    \IntroGuitar
+ r1.    \IntroGuitar
   }
   \new Staff \with {
        instrumentName = \markup {\line {"Rhythm guitar"}}
@@ -42,7 +42,7 @@
  r1.   \ARhythmGuitar
   }
   \new TabStaff {
- %   \ARhythmGuitar
+ r1.   \ARhythmGuitar
   }
   \new Staff \with {
        instrumentName = \markup {\line {"Bass"}}
