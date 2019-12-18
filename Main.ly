@@ -4,6 +4,7 @@
 \include "IntroGuitar.ly"
 \include "IntroChordNames.ly"
 \include "ARhythmGuitar.ly"
+\include "ABass.ly"
 
 \book {
  \header {
@@ -28,21 +29,29 @@
   \key f \major
   \tempo 4. = 148
   \time 12/8   
-   \IntroGuitar
+ r1.  \IntroGuitar
   }
   \new TabStaff {
-    \IntroGuitar
+%    \IntroGuitar
   }
   \new Staff \with {
        instrumentName = \markup {\line {"Rhythm guitar"}}
        \clef "treble_8"
   }{
     \key f \major
-    \ARhythmGuitar
+ r1.   \ARhythmGuitar
   }
   \new TabStaff {
-    \ARhythmGuitar
+ %   \ARhythmGuitar
   }
+  \new Staff \with {
+       instrumentName = \markup {\line {"Bass"}}
+       \clef "bass"
+  }{
+    \key f \major
+    \ABass
+  }
+    
  >> % StaffGroup
  \layout {
   \context {
