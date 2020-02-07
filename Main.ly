@@ -10,7 +10,7 @@
  \header {
   title = "Between Twighlight And Dawn"
   subtitle = "DRAFT"
-  subsubtitle = "v0.1"
+  subsubtitle = "v0.1.1"
   composer = "John Jorgenson"
   copyright = \markup { \char ##x00A9 Copyright Jorgensongs 2014 }
  }
@@ -27,23 +27,27 @@
    \clef "treble_8"
   }{
   \key f \major
-  \tempo 4. = 148
-  \time 12/8   
- r1.  \IntroGuitar
+  \tempo 4 = 148
+  \time 4/4   
+ r1  \IntroGuitar
   }
+%{
   \new TabStaff {
- r1.    \IntroGuitar
+ r1    \IntroGuitar
   }
+%}
   \new Staff \with {
        instrumentName = \markup {\line {"Rhythm guitar"}}
        \clef "treble_8"
   }{
     \key f \major
- r1.   \ARhythmGuitar
+ r1   \ARhythmGuitar
   }
-  \new TabStaff {
- r1.   \ARhythmGuitar
+%{
+\new TabStaff {
+ r1   \ARhythmGuitar
   }
+%}
   \new Staff \with {
        instrumentName = \markup {\line {"Bass"}}
        \clef "bass"
@@ -51,7 +55,7 @@
     \key f \major
     \ABass
   }
-    
+
  >> % StaffGroup
  \layout {
   \context {
@@ -62,6 +66,6 @@
   }
   \context { \TabStaff \remove Clef_engraver }
  }
-\midi {\tempo 4 = 120}
+\midi {\tempo 4. = 148}
 } % score
 } % book

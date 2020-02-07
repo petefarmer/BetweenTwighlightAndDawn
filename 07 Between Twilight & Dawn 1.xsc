@@ -2,7 +2,7 @@ Transcribe! for Macintosh document. Version 6089.00
 Transcribe!,Macintosh OS-X,8,73,7,S,1
 
 SectionStart,Main
-SaveDate,2019-12-17 07:14
+SaveDate,2019-12-19 08:49
 SoundFileName,07 Between Twilight & Dawn 1.m4a,MacOSX,/Users/p/Music/iTunes/iTunes Media/Music/The Hellecasters/Escape From Hollywood/07 Between Twilight & Dawn 1.m4a
 SoundFileInfo,AVFoundation soundfile,Extn:'m4a' Subtype:'aac ',2,5885236,44100,15762516,357.426667
 Loops,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0
@@ -51,10 +51,10 @@ TextZoneSplitterPos,0.250000
 PianoRollSplitterPos,0.500000
 ViewSplitterPos,0.700000
 VertProfileZoom,1.000000
-HorizProfileZoom,1.000000
-HorizProfilePos,1198
-SelectionLeft,526050
-SelectionRight,1815127
+HorizProfileZoom,0.557933
+HorizProfilePos,1209
+SelectionLeft,525565
+SelectionRight,1100071
 SectionEnd,View0
 
 SectionStart,Markers
