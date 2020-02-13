@@ -39,7 +39,7 @@
   \key f \major
   \tempo 4 = 148
   \time 4/4   
-   \repeat unfold 3  {  \IntroGuitar }
+   \repeat unfold 4   {  \IntroGuitar }
   }
 %{
   \new TabStaff {
@@ -53,9 +53,9 @@
   }{
     \key f \major
     \repeat unfold 8 {r1}
-    \repeat unfold 2 {\ARhythmGuitar}
+    \repeat unfold 1 {\ARhythmGuitar}
   }
-%{
+%{ 
 \new TabStaff {
  r1   \ARhythmGuitar
   }

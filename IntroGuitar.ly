@@ -11,6 +11,6 @@ IntroGuitar = {
 
   g,8. bes16 d8. c'16 ~ c'2
 %  r8. g,16 bes8. d16 c'8. g,16 bes4 
- r1
+ r1 
 
 }
