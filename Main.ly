@@ -53,7 +53,7 @@
   }{
     \key f \major
     \repeat unfold 8 {r1}
-    \repeat unfold 1 {\ARhythmGuitar}
+    \repeat unfold 3 {\ARhythmGuitar}
   }
 %{ 
 \new TabStaff {
